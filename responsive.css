@@ -1,0 +1,150 @@
+@media screen and (max-width: 414px){
+    .container-1{
+        display: block;
+        padding: 0px 0px 0px 0px;
+        margin-top: 0px;
+    }
+
+    .navbar-brand{
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+    .navbar-brand .navbar-toggler{
+        margin-left: 200px;
+        border: none;
+    }
+    .collapse{
+        margin-top: 70px;
+    }
+
+    .navbar .btn{
+        display: none;
+    }
+
+    .Header-Image{
+        margin-top: 20px;
+        width: 100%;
+        height: 600px;
+        object-fit: cover;
+        background-image: url(img/header-image\ \(2\).jpg) ;
+    }
+    
+    
+    .rectangle{
+        margin-top: 20px;
+        width: 69%;
+        height: 160px;
+        margin-right: 0px;
+        margin-left: 120px;
+    }
+
+    .header-text h2{
+        width: 100%;
+        font-size: 26px;
+        margin-top: 0px;
+        margin-left: 21px;
+    }
+    
+    .rectangle-1 .btn{
+        position: absolute;
+        margin-left: 85px;
+        margin-top: -17px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    
+    .rectangle-1{
+        position: absolute;
+        z-index: 1;
+        margin-left: 0px;
+        width: 43%;
+        height: 64px;
+    }
+    
+    .rectangle-1 .btn span{
+        margin-top: 0px;
+        font-size: 14px;
+    }
+    
+    .container{
+        margin-top: 70px;
+    }
+
+    .title{
+        font-size: 34px;
+        margin-top: 30px;
+    }
+
+    .row .card-body .card-title{
+        margin-top: -70px;
+        font-size: 16px;
+        margin-left: -45px;
+    }
+    .row .card-body span{
+        font-size: 24px;
+        padding: 5px 15px 5px 15px;
+        margin-left: 20px;
+    }
+    
+    .row .card-body h4{
+        font-size: 14px;
+        width: 80%;
+        margin-left: 72px;
+    }
+    
+    .row .card-body p{
+        font-size: 12px;
+        width: 68%;
+        margin-left: 72px;
+    }
+    
+    .row .card-body .Bitmap{
+        width: 70%;
+        height: 160px;
+        margin-left: 72px;
+        margin-bottom: 30px;
+        box-shadow: none;
+    }
+
+
+    .container .btn{
+        display: none;
+    }
+
+    .client{
+        background-color: lightcoral;
+        margin-top: 1200px;
+        width: 100%;
+        height: 365px;
+        padding-top: 10px;
+        margin-bottom: 100px;
+     
+    }
+
+    .client .container{
+        background-color: lightcyan;
+        margin-top: 0px;
+    }
+
+    
+    .client .container h2{
+        font-size: 34px;
+        width: 82%;
+        margin-left: 10px;
+    }
+
+    .client-logos{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .client .client-logos img:last-of-type{
+        display: block;
+    }
+
+    .client-logos .Bitmap{
+        flex-basis: 33.33%;
+        object-fit: contain;
+        margin: 25px, 25px, 25px, 25px ;
+    }
+}
