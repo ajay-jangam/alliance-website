@@ -124,27 +124,198 @@
     .client .container{
         background-color: lightcyan;
         margin-top: 0px;
+        margin-bottom: 100px;
     }
-
+    
     
     .client .container h2{
         font-size: 34px;
         width: 82%;
         margin-left: 10px;
+        margin-bottom: -20px;
     }
-
+    
     .client-logos{
         display: flex;
         flex-wrap: wrap;
     }
-
+    
     .client .client-logos img:last-of-type{
         display: block;
     }
-
+    
     .client-logos .Bitmap{
-        flex-basis: 33.33%;
+        width: 10%;
+        flex-basis: 25%;
         object-fit: contain;
-        margin: 25px, 25px, 25px, 25px ;
+        margin-top: 70px;
+        margin-right: 10px;
     }
-}
+
+    .slick-slider .container{
+        margin-top: 80px;
+        background-color: greenyellow;
+    }
+
+    .slick-slider .container h4{
+        font-size: 16px;
+    }
+
+    .slick-slider .container h2{
+        font-size: 34px;
+        width: 70%;
+    }
+
+    .post-wrapper{
+        /* background-color: lightpink; */
+        width: 90%;
+
+    }
+
+    .your-class{
+        background-color: lightskyblue;
+    }
+
+    .your-class .img-fluid{
+        width: 100%;
+    }
+
+    .bg-image .container{
+        width: 100%;
+        margin-left: 10px;
+        
+    }
+
+    .bg-image{
+        width: 100%;
+        object-fit: contain;
+        background: url(/img/bg-image.jpg )
+    }
+
+    .bg-image .title{
+        padding-top: 40px;
+    }
+
+    .bg-image h2{
+        width: 100%;
+        font-size: 28px;
+    }
+
+    .bg-image p{
+        height: 30px;
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .bg-image .btn{
+        display: block;
+        margin-top: 70px;
+    }
+
+    .bg-image .btn span{
+        margin-left: -30px;
+    }
+
+    .bg-image .btn .fas{
+        margin-right: -30px;
+    }
+
+    .solution .container{
+        width: 100%;
+        margin-top: 100px;
+        background-color: greenyellow;
+    }
+    
+    .solution .container .text{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .solution .container .text h2{
+        font-size: 34px;
+        width: 90%
+    }    
+
+    .solution .container .text p{
+        font-size: 12px;
+        width: 95%
+    }
+
+    .solution-img .container-fluid{
+    }
+    
+    .solution-img .container-fluid .row{
+        display: block;
+        flex-direction: column;
+        margin-bottom: 500px;
+        margin-left: -90px;
+        align-content: center;
+        width: 100%;
+    }
+
+    .solution-img .container-fluid .col1 .Bitmap-1{
+        width: 90%;
+    }
+    .solution-img .container-fluid .col1 .Bitmap-2{
+        width: 90%;
+    }
+    .solution-img .container-fluid .col2 .Bitmap-3{
+        width: 90%;
+    }
+    .solution-img .container-fluid .col2 .Bitmap-4{
+        width: 90%;
+    }
+
+    .solution-img .container-fluid .col1{
+        
+    }
+
+    .solution-img .container-fluid .col1 h4{
+        width: 90%;
+        font-size: 18.9px;
+        color: green;
+        margin-top: 145px;
+    }
+
+    .solution-img .container-fluid h4{
+        margin-top: 120px;
+    } 
+
+    .solution-img .container-fluid .col1 p{
+        margin-top: 147px;
+    }
+
+
+    .solution-img .container-fluid .col2 h4{
+        width: 90%;
+        font-size: 18.9px;
+        color: green;
+        margin-top: 70px;
+    }
+
+    .solution-img .container-fluid .col1 p{
+        width: 70%;
+        color: gold;
+        font-size: 12px;
+        margin-top: 90px;
+    }
+
+    .solution-img .container-fluid .col2{
+        margin-top: 40px;
+    }
+
+    .solution-img .container-fluid .col2 p{
+        width: 70%;
+        color: gold;
+        font-size: 12px;
+        margin-top: 128px;
+    }
+
+
+
+    .slick-slider-1{
+        margin-top: 1500px;
+        height: 500px;
+    }
+}   
+
