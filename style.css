@@ -21,7 +21,18 @@
 .navbar-brand{
     margin-top: 57px;
     margin-left: 10px;
-    /* object-fit: contain; */
+}
+
+.navbar-brand .alliance-logo{
+    width: 55px;
+}
+
+.navbar-brand h1{
+    margin-top: 8px;
+    margin-left: 15px;
+    margin-right: 35px;
+    color: #4a4a4a;
+    text-transform: uppercase;
 }
 
 .collapse{
@@ -737,18 +748,19 @@
 .footer .container{
     background-color: #f6f5f5;
     width: 726px;
-    height: 455px;
+    height: 470px;
     padding-left: 100px;
     padding-top: 36px;
     padding-right: 100px;
-    margin-top: 90px;
+    margin-top: 122px;
 }
 
 .footer .container #button{
-    margin-top: 38px;
+    margin-top: 28px;
     margin-left: 0px;
     padding-left: 20px;
     padding-right: 20px;
+    margin-bottom: 66px;
 }
 
 .footer .container h2{
@@ -769,6 +781,7 @@
     line-height: normal;
     letter-spacing: normal;
     color: #2c3930;
+    margin-bottom: 50px;
 }
 
 .footer .row .container-1{
